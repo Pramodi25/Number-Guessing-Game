@@ -1,9 +1,18 @@
-Number Guessing Game
-This Python program is a simple number guessing game where the user has to guess a randomly generated number within a specified range.
+# Number Guessing Game
 
-How to Use
-Input Bounds: Enter the lower and upper bounds for the range of numbers you want to guess between when prompted.
-Guessing: Guess a number within the specified range.
-Feedback: You'll be informed if your guess is too high or too low.
-Guess Count: You have a limited number of guesses based on the range size. Try to guess the number within these attempts.
-Outcome: If you guess the number correctly, you win! Otherwise, you'll be informed of the correct number.
+A simple console-based number guessing game implemented in Python.
+
+## How to Play
+
+1. Enter a lower and upper bound for the range of numbers.
+2. The program will generate a random number within the specified range.
+3. You have a limited number of guesses based on the range size.
+4. Guess the number, and the program will provide feedback if it's too high or too low.
+5. Keep guessing until you find the correct number or run out of guesses.
+
+## Code Overview
+
+- lower and upper: Define the lower and upper bounds for the random number generation.
+- number: Randomly generated number within the specified range.
+- num_guesses: Calculated based on the range size using logarithm.
+- guess_count: Tracks the number of guess
